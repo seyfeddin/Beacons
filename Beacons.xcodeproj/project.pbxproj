@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55687D16571944F3BD619092 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB177D1F0D64D0881F48713 /* libPods.a */; };
+		CD503C6419264BED0062DF65 /* BSAddBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD503C6219264BED0062DF65 /* BSAddBeaconViewController.m */; };
+		CD503C6519264BED0062DF65 /* BSAddBeaconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD503C6319264BED0062DF65 /* BSAddBeaconViewController.xib */; };
+		CD503C6819264CD30062DF65 /* BSInputFIeld.m in Sources */ = {isa = PBXBuildFile; fileRef = CD503C6719264CD30062DF65 /* BSInputFIeld.m */; };
+		CD503C6B19266E340062DF65 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CD503C6A19266E340062DF65 /* UIImage+Color.m */; };
 		CD604FE719262F9D004DCE34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD604FE619262F9D004DCE34 /* Foundation.framework */; };
 		CD604FE919262F9D004DCE34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD604FE819262F9D004DCE34 /* CoreGraphics.framework */; };
 		CD604FEB19262F9D004DCE34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD604FEA19262F9D004DCE34 /* UIKit.framework */; };
 		CD604FED19262F9D004DCE34 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD604FEC19262F9D004DCE34 /* CoreData.framework */; };
 		CD604FF319262F9D004DCE34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD604FF119262F9D004DCE34 /* InfoPlist.strings */; };
 		CD604FF519262F9D004DCE34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD604FF419262F9D004DCE34 /* main.m */; };
-		CD604FF919262F9D004DCE34 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD604FF819262F9D004DCE34 /* BSAppDelegate.m */; };
 		CD604FFC19262F9D004DCE34 /* Beacons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD604FFA19262F9D004DCE34 /* Beacons.xcdatamodeld */; };
 		CD604FFE19262F9D004DCE34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD604FFD19262F9D004DCE34 /* Images.xcassets */; };
 		CD60500519262F9D004DCE34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60500419262F9D004DCE34 /* XCTest.framework */; };
@@ -22,6 +26,25 @@
 		CD60500819262F9D004DCE34 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD604FEC19262F9D004DCE34 /* CoreData.framework */; };
 		CD60501019262F9D004DCE34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD60500E19262F9D004DCE34 /* InfoPlist.strings */; };
 		CD60501219262F9D004DCE34 /* BeaconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60501119262F9D004DCE34 /* BeaconsTests.m */; };
+		CD60501C19263109004DCE34 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60501B19263109004DCE34 /* Mapbox.framework */; };
+		CD60501E1926311E004DCE34 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60501D1926311E004DCE34 /* CoreLocation.framework */; };
+		CD60502019263131004DCE34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60501F19263131004DCE34 /* QuartzCore.framework */; };
+		CD6050221926313C004DCE34 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6050211926313C004DCE34 /* libsqlite3.dylib */; };
+		CD60502419263143004DCE34 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60502319263143004DCE34 /* libz.dylib */; };
+		CD60502619263175004DCE34 /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD60502519263175004DCE34 /* Mapbox.bundle */; };
+		CD605034192638A0004DCE34 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60502F192638A0004DCE34 /* BSAppDelegate.m */; };
+		CD60503B192638F1004DCE34 /* Place+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60503A192638F1004DCE34 /* Place+Create.m */; };
+		CD60503E192638FF004DCE34 /* PlaceType+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60503D192638FF004DCE34 /* PlaceType+Create.m */; };
+		CD60504119263D70004DCE34 /* PlaceType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60504019263D70004DCE34 /* PlaceType.m */; };
+		CD60504419263D71004DCE34 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60504319263D71004DCE34 /* Place.m */; };
+		CD60504819263DB1004DCE34 /* BSListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60504619263DB1004DCE34 /* BSListViewController.m */; };
+		CD60504919263DB1004DCE34 /* BSListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD60504719263DB1004DCE34 /* BSListViewController.xib */; };
+		CD60504D19263F92004DCE34 /* BSMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60504B19263F92004DCE34 /* BSMapViewController.m */; };
+		CD60504E19263F92004DCE34 /* BSMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD60504C19263F92004DCE34 /* BSMapViewController.xib */; };
+		CD605052192640BB004DCE34 /* BSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD605050192640BB004DCE34 /* BSTableViewCell.m */; };
+		CD605053192640BB004DCE34 /* BSTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD605051192640BB004DCE34 /* BSTableViewCell.xib */; };
+		CD60505719264162004DCE34 /* CamptonBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD60505519264162004DCE34 /* CamptonBook.otf */; };
+		CD60505819264162004DCE34 /* CamptonMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CD60505619264162004DCE34 /* CamptonMedium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DEBFF5765F74FE68EEC7796 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CD503C6119264BED0062DF65 /* BSAddBeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAddBeaconViewController.h; sourceTree = "<group>"; };
+		CD503C6219264BED0062DF65 /* BSAddBeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAddBeaconViewController.m; sourceTree = "<group>"; };
+		CD503C6319264BED0062DF65 /* BSAddBeaconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSAddBeaconViewController.xib; sourceTree = "<group>"; };
+		CD503C6619264CD30062DF65 /* BSInputFIeld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSInputFIeld.h; sourceTree = "<group>"; };
+		CD503C6719264CD30062DF65 /* BSInputFIeld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSInputFIeld.m; sourceTree = "<group>"; };
+		CD503C6919266E340062DF65 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		CD503C6A19266E340062DF65 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		CD604FE319262F9D004DCE34 /* Beacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD604FE619262F9D004DCE34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD604FE819262F9D004DCE34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,8 +75,6 @@
 		CD604FF219262F9D004DCE34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD604FF419262F9D004DCE34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD604FF619262F9D004DCE34 /* Beacons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beacons-Prefix.pch"; sourceTree = "<group>"; };
-		CD604FF719262F9D004DCE34 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
-		CD604FF819262F9D004DCE34 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
 		CD604FFB19262F9D004DCE34 /* Beacons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beacons.xcdatamodel; sourceTree = "<group>"; };
 		CD604FFD19262F9D004DCE34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD60500319262F9D004DCE34 /* BeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +82,34 @@
 		CD60500D19262F9D004DCE34 /* BeaconsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconsTests-Info.plist"; sourceTree = "<group>"; };
 		CD60500F19262F9D004DCE34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD60501119262F9D004DCE34 /* BeaconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconsTests.m; sourceTree = "<group>"; };
+		CD60501B19263109004DCE34 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = ../../Downloads/Applications/Mapbox.framework; sourceTree = "<group>"; };
+		CD60501D1926311E004DCE34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD60501F19263131004DCE34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD6050211926313C004DCE34 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CD60502319263143004DCE34 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CD60502519263175004DCE34 /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Mapbox.bundle; path = ../../../Downloads/Applications/Mapbox.framework/Versions/A/Resources/Mapbox.bundle; sourceTree = "<group>"; };
+		CD60502E192638A0004DCE34 /* BSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		CD60502F192638A0004DCE34 /* BSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		CD605039192638F1004DCE34 /* Place+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Place+Create.h"; sourceTree = "<group>"; };
+		CD60503A192638F1004DCE34 /* Place+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Place+Create.m"; sourceTree = "<group>"; };
+		CD60503C192638FF004DCE34 /* PlaceType+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlaceType+Create.h"; sourceTree = "<group>"; };
+		CD60503D192638FF004DCE34 /* PlaceType+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PlaceType+Create.m"; sourceTree = "<group>"; };
+		CD60503F19263D70004DCE34 /* PlaceType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceType.h; sourceTree = "<group>"; };
+		CD60504019263D70004DCE34 /* PlaceType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceType.m; sourceTree = "<group>"; };
+		CD60504219263D71004DCE34 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		CD60504319263D71004DCE34 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		CD60504519263DB1004DCE34 /* BSListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSListViewController.h; sourceTree = "<group>"; };
+		CD60504619263DB1004DCE34 /* BSListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSListViewController.m; sourceTree = "<group>"; };
+		CD60504719263DB1004DCE34 /* BSListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSListViewController.xib; sourceTree = "<group>"; };
+		CD60504A19263F92004DCE34 /* BSMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMapViewController.h; sourceTree = "<group>"; };
+		CD60504B19263F92004DCE34 /* BSMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMapViewController.m; sourceTree = "<group>"; };
+		CD60504C19263F92004DCE34 /* BSMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSMapViewController.xib; sourceTree = "<group>"; };
+		CD60504F192640BB004DCE34 /* BSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTableViewCell.h; sourceTree = "<group>"; };
+		CD605050192640BB004DCE34 /* BSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTableViewCell.m; sourceTree = "<group>"; };
+		CD605051192640BB004DCE34 /* BSTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSTableViewCell.xib; sourceTree = "<group>"; };
+		CD60505519264162004DCE34 /* CamptonBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CamptonBook.otf; sourceTree = "<group>"; };
+		CD60505619264162004DCE34 /* CamptonMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CamptonMedium.otf; sourceTree = "<group>"; };
+		CFB177D1F0D64D0881F48713 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +117,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD60502419263143004DCE34 /* libz.dylib in Frameworks */,
+				CD6050221926313C004DCE34 /* libsqlite3.dylib in Frameworks */,
+				CD60502019263131004DCE34 /* QuartzCore.framework in Frameworks */,
+				CD60501E1926311E004DCE34 /* CoreLocation.framework in Frameworks */,
 				CD604FE919262F9D004DCE34 /* CoreGraphics.framework in Frameworks */,
 				CD604FED19262F9D004DCE34 /* CoreData.framework in Frameworks */,
 				CD604FEB19262F9D004DCE34 /* UIKit.framework in Frameworks */,
 				CD604FE719262F9D004DCE34 /* Foundation.framework in Frameworks */,
+				55687D16571944F3BD619092 /* libPods.a in Frameworks */,
+				CD60501C19263109004DCE34 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +151,7 @@
 				CD60500B19262F9D004DCE34 /* BeaconsTests */,
 				CD604FE519262F9D004DCE34 /* Frameworks */,
 				CD604FE419262F9D004DCE34 /* Products */,
+				9DEBFF5765F74FE68EEC7796 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,11 +167,17 @@
 		CD604FE519262F9D004DCE34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD60502319263143004DCE34 /* libz.dylib */,
+				CD6050211926313C004DCE34 /* libsqlite3.dylib */,
+				CD60501F19263131004DCE34 /* QuartzCore.framework */,
+				CD60501D1926311E004DCE34 /* CoreLocation.framework */,
+				CD60501B19263109004DCE34 /* Mapbox.framework */,
 				CD604FE619262F9D004DCE34 /* Foundation.framework */,
 				CD604FE819262F9D004DCE34 /* CoreGraphics.framework */,
 				CD604FEA19262F9D004DCE34 /* UIKit.framework */,
 				CD604FEC19262F9D004DCE34 /* CoreData.framework */,
 				CD60500419262F9D004DCE34 /* XCTest.framework */,
+				CFB177D1F0D64D0881F48713 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +185,8 @@
 		CD604FEE19262F9D004DCE34 /* Beacons */ = {
 			isa = PBXGroup;
 			children = (
-				CD604FF719262F9D004DCE34 /* BSAppDelegate.h */,
-				CD604FF819262F9D004DCE34 /* BSAppDelegate.m */,
+				CD60505419264162004DCE34 /* Assets */,
+				CD60502A192638A0004DCE34 /* Classes */,
 				CD604FFD19262F9D004DCE34 /* Images.xcassets */,
 				CD604FFA19262F9D004DCE34 /* Beacons.xcdatamodeld */,
 				CD604FEF19262F9D004DCE34 /* Supporting Files */,
@@ -127,6 +197,7 @@
 		CD604FEF19262F9D004DCE34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD60502519263175004DCE34 /* Mapbox.bundle */,
 				CD604FF019262F9D004DCE34 /* Beacons-Info.plist */,
 				CD604FF119262F9D004DCE34 /* InfoPlist.strings */,
 				CD604FF419262F9D004DCE34 /* main.m */,
@@ -153,6 +224,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CD60502A192638A0004DCE34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD60502B192638A0004DCE34 /* Categories */,
+				CD60502C192638A0004DCE34 /* Controllers */,
+				CD60502D192638A0004DCE34 /* Delegates */,
+				CD605030192638A0004DCE34 /* Models */,
+				CD605033192638A0004DCE34 /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD60502B192638A0004DCE34 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CD503C6919266E340062DF65 /* UIImage+Color.h */,
+				CD503C6A19266E340062DF65 /* UIImage+Color.m */,
+				CD605039192638F1004DCE34 /* Place+Create.h */,
+				CD60503A192638F1004DCE34 /* Place+Create.m */,
+				CD60503C192638FF004DCE34 /* PlaceType+Create.h */,
+				CD60503D192638FF004DCE34 /* PlaceType+Create.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CD60502C192638A0004DCE34 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD60504519263DB1004DCE34 /* BSListViewController.h */,
+				CD60504619263DB1004DCE34 /* BSListViewController.m */,
+				CD60504719263DB1004DCE34 /* BSListViewController.xib */,
+				CD60504A19263F92004DCE34 /* BSMapViewController.h */,
+				CD60504B19263F92004DCE34 /* BSMapViewController.m */,
+				CD60504C19263F92004DCE34 /* BSMapViewController.xib */,
+				CD503C6119264BED0062DF65 /* BSAddBeaconViewController.h */,
+				CD503C6219264BED0062DF65 /* BSAddBeaconViewController.m */,
+				CD503C6319264BED0062DF65 /* BSAddBeaconViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CD60502D192638A0004DCE34 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				CD60502E192638A0004DCE34 /* BSAppDelegate.h */,
+				CD60502F192638A0004DCE34 /* BSAppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		CD605030192638A0004DCE34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD60504219263D71004DCE34 /* Place.h */,
+				CD60504319263D71004DCE34 /* Place.m */,
+				CD60503F19263D70004DCE34 /* PlaceType.h */,
+				CD60504019263D70004DCE34 /* PlaceType.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD605033192638A0004DCE34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD60504F192640BB004DCE34 /* BSTableViewCell.h */,
+				CD605050192640BB004DCE34 /* BSTableViewCell.m */,
+				CD605051192640BB004DCE34 /* BSTableViewCell.xib */,
+				CD503C6619264CD30062DF65 /* BSInputFIeld.h */,
+				CD503C6719264CD30062DF65 /* BSInputFIeld.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD60505419264162004DCE34 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CD60505519264162004DCE34 /* CamptonBook.otf */,
+				CD60505619264162004DCE34 /* CamptonMedium.otf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +313,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD60501519262F9D004DCE34 /* Build configuration list for PBXNativeTarget "Beacons" */;
 			buildPhases = (
+				7857688030484F14B232F065 /* Check Pods Manifest.lock */,
 				CD604FDF19262F9D004DCE34 /* Sources */,
 				CD604FE019262F9D004DCE34 /* Frameworks */,
 				CD604FE119262F9D004DCE34 /* Resources */,
+				6BC0B6D925904294969EB07E /* Copy Pods Resources */,
+				CD605059192641D2004DCE34 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -229,7 +385,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD60502619263175004DCE34 /* Mapbox.bundle in Resources */,
+				CD60504919263DB1004DCE34 /* BSListViewController.xib in Resources */,
+				CD60505719264162004DCE34 /* CamptonBook.otf in Resources */,
+				CD60505819264162004DCE34 /* CamptonMedium.otf in Resources */,
+				CD605053192640BB004DCE34 /* BSTableViewCell.xib in Resources */,
 				CD604FF319262F9D004DCE34 /* InfoPlist.strings in Resources */,
+				CD503C6519264BED0062DF65 /* BSAddBeaconViewController.xib in Resources */,
+				CD60504E19263F92004DCE34 /* BSMapViewController.xib in Resources */,
 				CD604FFE19262F9D004DCE34 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +407,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BC0B6D925904294969EB07E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7857688030484F14B232F065 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD605059192641D2004DCE34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mdfind -onlyin \"${SRCROOT}\" \"kMDItemContentTypeTree == public.font\" -0 | sort -z | xargs -0 /usr/local/bin/moarfonts install";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD604FDF19262F9D004DCE34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD605052192640BB004DCE34 /* BSTableViewCell.m in Sources */,
+				CD60503E192638FF004DCE34 /* PlaceType+Create.m in Sources */,
+				CD60504819263DB1004DCE34 /* BSListViewController.m in Sources */,
 				CD604FF519262F9D004DCE34 /* main.m in Sources */,
+				CD60504419263D71004DCE34 /* Place.m in Sources */,
+				CD60504119263D70004DCE34 /* PlaceType.m in Sources */,
+				CD60503B192638F1004DCE34 /* Place+Create.m in Sources */,
 				CD604FFC19262F9D004DCE34 /* Beacons.xcdatamodeld in Sources */,
-				CD604FF919262F9D004DCE34 /* BSAppDelegate.m in Sources */,
+				CD60504D19263F92004DCE34 /* BSMapViewController.m in Sources */,
+				CD605034192638A0004DCE34 /* BSAppDelegate.m in Sources */,
+				CD503C6819264CD30062DF65 /* BSInputFIeld.m in Sources */,
+				CD503C6419264BED0062DF65 /* BSAddBeaconViewController.m in Sources */,
+				CD503C6B19266E340062DF65 /* UIImage+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,9 +584,14 @@
 		};
 		CD60501619262F9D004DCE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEBFF5765F74FE68EEC7796 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/seyfoyun/Downloads/Applications,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacons/Beacons-Prefix.pch";
 				INFOPLIST_FILE = "Beacons/Beacons-Info.plist";
@@ -378,9 +602,14 @@
 		};
 		CD60501719262F9D004DCE34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DEBFF5765F74FE68EEC7796 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/seyfoyun/Downloads/Applications,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Beacons/Beacons-Prefix.pch";
 				INFOPLIST_FILE = "Beacons/Beacons-Info.plist";
@@ -448,6 +677,7 @@
 				CD60501719262F9D004DCE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD60501819262F9D004DCE34 /* Build configuration list for PBXNativeTarget "BeaconsTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +686,7 @@
 				CD60501A19262F9D004DCE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
